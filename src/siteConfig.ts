@@ -1,15 +1,15 @@
-import { Instagram, Twitter, Youtube, Facebook, Mail, Users, Heart, Eye } from "lucide-react";
+import { Instagram, Twitter, Facebook, Mail, Users, Heart, Eye } from "lucide-react";
 import { SiteConfig } from "./types";
 
 const siteConfig: SiteConfig = {
   name: "Cati Barrionuevo",
   tagline: "Lifestyle | Fashion | Travel",
-  description: "Influencer and content creator passionate about lifestyle, fashion, and travel.",
+  description: "embajadora de @lolamorarosario @bellassiemprespa.",
   profileImageUrl: "/placeholder.svg?height=150&width=150",
   socialLinks: [
-    { platform: "Instagram", icon: Instagram, url: "https://instagram.com/janedoe" },
+    { platform: "Instagram", icon: Instagram, url: "https://www.instagram.com/catabarrionuevo/" },
     { platform: "Twitter", icon: Twitter, url: "https://twitter.com/janedoe" },
-    { platform: "YouTube", icon: Youtube, url: "https://youtube.com/janedoe" },
+    // { platform: "YouTube", icon: Youtube, url: "https://youtube.com/janedoe" },
     { platform: "Facebook", icon: Facebook, url: "https://facebook.com/janedoe" },
     { platform: "Email", icon: Mail, url: "mailto:contact@janedoe.com" },
   ],

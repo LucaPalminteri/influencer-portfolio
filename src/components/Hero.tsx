@@ -22,7 +22,11 @@ export function Hero({ name, tagline, imageUrl, socialLinks, description }: Hero
       />
       <h1 className="text-4xl font-bold mb-4 text-foreground">{name}</h1>
       <p className="text-xl text-muted-foreground mb-4">{tagline}</p>
-      <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto">{description}</p>
+      {/* <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto">{description}</p> */}
+      <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto">
+        Embajadora de <a href="https://www.instagram.com/lolamorarosario/">@lolamorarosario</a> y{" "}
+        <a href="https://www.instagram.com/bellassiemprespa/">@bellassiemprespa</a>.
+      </p>
       <div className="flex justify-center space-x-4">
         {socialLinks.map((link, index) => (
           <Button key={index} variant="outline" size="icon" asChild>
